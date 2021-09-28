@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> the zone </title>
+        <style>
+            body {
+                background: rgb(235, 195, 247);
+                color: rgb(156, 64, 184);
+                padding: 10px;
+                font-family: arial; 
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(250, 139, 42);
+                margin: 0 auto;
+                margin-bottom: 20px; 
+                display: flex;
+                padding: 10px; 
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: darkorchid;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px orange ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- All content goes here -->
+        <div id="all-contents">
+            <nav>
+                <h1>what if there was a big robot and inside the big robot there was a giant city i think that would be awesome</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html"> Portfolio </a> 
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://i.redd.it/yfsrrb5lqwx61.jpg">
+                </div>
+
+                <!-- Content section -->
+                <div class="content">
+                    <h2>Carter Roberts</h2>
+                    <p>Student at Lusher Charter School, famous baby, master of espionage,</p>
+                    <!-- Interests section -->
+                    <div id="interests">
+                        <h3> Interests (cool things I can do) </h3>
+                        <ul>
+                            <li>picking up a pencil and scribbling</li>
+                            <li>looking at flashing lights and pressing buttons</li>
+                            <li>thinking of things to write down and then sometimes doing it</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
